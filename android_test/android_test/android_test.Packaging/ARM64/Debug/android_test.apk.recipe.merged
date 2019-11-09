@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <SOLibPaths>C:\Users\bunch\Desktop\workingspace\projects\android_test\android_test\ARM64\Debug\libandroid_test.so;C:\Microsoft\AndroidNDK64\android-ndk-r16b\prebuilt\android-arm64\gdbserver\gdbserver;C:\Microsoft\AndroidNDK64\android-ndk-r16b\sources\cxx-stl\llvm-libc++\libs\arm64-v8a\libandroid_support.a;C:\Microsoft\AndroidNDK64\android-ndk-r16b\sources\cxx-stl\llvm-libc++\libs\arm64-v8a\libc++_static.a;C:\Microsoft\AndroidNDK64\android-ndk-r16b\sources\cxx-stl\llvm-libc++\libs\arm64-v8a\libc++abi.a</SOLibPaths>
+  <AndroidLibPaths></AndroidLibPaths>
+  <OObjPaths>C:\Users\bunch\Desktop\workingspace\projects\android_test\android_test\android_test\android_test.NativeActivity\ARM64\Debug</OObjPaths>
+  <Configuration>Debug</Configuration>
+  <Platform>ARM64</Platform>
+  <AndroidArchitecture>arm64-v8a</AndroidArchitecture>
+</project>

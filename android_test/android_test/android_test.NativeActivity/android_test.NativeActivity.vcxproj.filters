@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Task">
+      <UniqueIdentifier>{266ce938-144e-4568-9620-33e6ff2e37de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{d6e8fd2d-bf9c-4bc4-a1a5-ca73d59bf05c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Utility">
+      <UniqueIdentifier>{3ecbef57-f0b5-4cc0-abf0-cc28fb940c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\System">
+      <UniqueIdentifier>{79f20370-2a5f-4c0c-b6cd-64b25e6b43c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\System\TaskSystem">
+      <UniqueIdentifier>{6b390e9e-12fd-4f07-8fb3-33597d8a2f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task\Test">
+      <UniqueIdentifier>{5dc18cd4-2ede-4895-ab1b-3d1e9c5cc59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task\Physics">
+      <UniqueIdentifier>{4a6529f2-4b9f-41df-a241-6d28545b4c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Utility\Counter">
+      <UniqueIdentifier>{14ce119f-9c40-4faa-8e73-8a5b4efd3254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Utility\Easing">
+      <UniqueIdentifier>{642a63d5-52a2-482b-8c5e-859f1191d669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Utility\Fps">
+      <UniqueIdentifier>{343311ae-a05e-42f0-90be-404ff3e5035c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Utility\Image">
+      <UniqueIdentifier>{7deeb6e9-d481-4320-be3a-e54453488adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Utility\Math">
+      <UniqueIdentifier>{a9a403af-69a2-4252-94b9-090323c4d02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Utility\Shader">
+      <UniqueIdentifier>{f15a2e7f-58c4-4f19-afc9-82f4936144a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TaskAbstract.cpp">
+      <Filter>System\System\TaskSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TaskSystem.cpp">
+      <Filter>System\System\TaskSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Task_Physics.cpp">
+      <Filter>Task\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Task_Bg.cpp">
+      <Filter>Task\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Task_Chikuwa.cpp">
+      <Filter>Task\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem.cpp">
+      <Filter>System\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Easing.cpp">
+      <Filter>System\Utility\Easing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Fps.cpp">
+      <Filter>System\Utility\Fps</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImageDrawer.cpp">
+      <Filter>System\Utility\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImageLoader.cpp">
+      <Filter>System\Utility\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math.cpp">
+      <Filter>System\Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShaderManager.cpp">
+      <Filter>System\Utility\Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\TaskAbstract.h">
+      <Filter>System\System\TaskSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TaskSystem.h">
+      <Filter>System\System\TaskSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Task_Physics.h">
+      <Filter>Task\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Task_Bg.h">
+      <Filter>Task\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Task_Chikuwa.h">
+      <Filter>Task\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SystemDefine.hpp">
+      <Filter>System\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem.h">
+      <Filter>System\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Counter.hpp">
+      <Filter>System\Utility\Counter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Easing.h">
+      <Filter>System\Utility\Easing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Fps.h">
+      <Filter>System\Utility\Fps</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImageDrawer.h">
+      <Filter>System\Utility\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImageLoader.h">
+      <Filter>System\Utility\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math.h">
+      <Filter>System\Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShaderManager.h">
+      <Filter>System\Utility\Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
